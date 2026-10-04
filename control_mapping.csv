@@ -1,0 +1,13 @@
+Risk ID,ISO 27001 Control ID,Control Title,Mitigation Action,Owner,Target Date
+R-001,A.5.33,Protection of records,"Require approval before any direct database record edits, and log all changes for audit purposes",IT Admin,30 days
+R-002,A.8.24,Use of cryptography,Enable end-to-end encryption on POS terminal transactions (PCI-compliant payment processing),Store Manager,30 days
+R-003,A.8.24,Use of cryptography,Enable end-to-end encryption on POS terminal transactions (PCI-compliant payment processing),Store Manager,30 days
+R-004,A.8.13,Information Backup,Set up automated daily backups of the back office laptop to cloud storage,Store Manager,14 days
+R-005,A.8.2,Privileged access rights,"Restrict database admin rights to IT Admin only, with unique logins (no shared accounts)",IT Admin,14 days
+R-006,A.7.10,Storage media,Encrypt the backup drive and store it in a locked cabinet when not in active use,IT Admin,14 days
+R-007,A.8.20,Networks security,"Segment POS terminals on a dedicated, isolated network VLAN",IT Admin,30 days
+R-008,A.8.15,Logging,Enable activity logging on the back office laptop to track who made changes,Store Manager,14 days
+R-009,A.8.6,Capacity management,Monitor database server load and set up basic traffic alerts,IT Admin,30 days
+R-010,A.8.13,Information Backup,Verify backup integrity monthly with a test restore,IT Admin,30 days
+R-011,A.8.20,Networks security,"Segment POS terminals on a dedicated, isolated network VLAN",IT Admin,30 days
+R-012,A.8.2,Privileged access rights,Require unique logins and remove unnecessary admin rights on the laptop,Store Manager,14 days
