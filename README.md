@@ -13,3 +13,6 @@ Target dates are given as a number of days from when this plan was created, repr
 
 ## Source
 This mapping builds directly on the risk register maintained in the companion repository: `voltmart-stride-risk-register`.
+
+## Coverage Check
+All 12 risks from the risk register (R-001 through R-012) have at least one mapped ISO 27001 control - confirmed by cross-checking each Risk ID against `control_mapping.csv` before finalizing this repo.
